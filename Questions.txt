@@ -1,0 +1,17 @@
+1: What is the STL? WHat is a vector?
+An STL is a Standard Template library which is a collection of template classes and template functions. A vector on the other hand is one example of the generic template classes.
+
+2: Which vector operations change the size of a vector after its construction?
+There are many different operation such as pop_back and push_back that can change the size of a vector however, resize is the main operation to use when changing the size of a vector.
+
+3: What is the STL Array container and how does it differ from the built-in array and from a vector?
+Vector is a sequential container to store elements, differs and is not element based. Built in array in element based and cannot be manipulated as well as a vector.
+
+4: How does the vector member function resize() differ from reserve()?
+Vector resize() changes the size of the vector, while reserve() changes the capcaity of the vector.
+
+5: What should begin() and end() do for a container?
+Begin() must point to the first element of a container, and End() must point to the final element of the container.
+
+6: Give an example of using the vector push_back() modifier:
+When filling a vector out with values from least to greatest, we can use the push back function and a for loop that increases i to set the highest values to the back of the vector as the loop continues.
