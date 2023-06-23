@@ -1,18 +1,12 @@
-#ifndef lotto_h
-#define lotto_h
-#include <iostream>
-#include <iomanip>
-#include <string>
+#include <stdio.h>
 #include <vector>
 #include <algorithm>
-#include <functional>
-// #include <cstdlib>
-// #include <time.h>
-// #include <chrono>
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
-vector<int> lotto(int, int);
-int randomNum(int);
+vector<int> lotto(int totalSpots, int Spots);
 
-
-#endif
+int randomNum(int range);
